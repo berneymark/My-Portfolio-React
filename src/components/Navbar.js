@@ -1,8 +1,8 @@
 function Navbar() {
     return (
-        <nav>
+        <nav className="nav">
             <h1>Mark Berney</h1>
-            <ul>
+            <ul className="nav-links">
                 <li>About</li>
                 <li>Contact</li>
             </ul>

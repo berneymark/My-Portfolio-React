@@ -1,3 +1,19 @@
-.App {
-  text-align: center;
+nav {
+  align-items: center;
+  background-color: darkslategray;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  width: 50%
+}
+
+.nav-links > * {
+  padding-left: 10px;
 }
