@@ -6,6 +6,11 @@ nav {
   justify-content: space-around;
 }
 
+nav > * {
+  color: white;
+  text-decoration: none;
+}
+
 .nav-links {
   align-items: center;
   display: flex;
@@ -15,5 +20,7 @@ nav {
 }
 
 .nav-links > * {
+  color: white;
   padding-left: 10px;
+  text-decoration: none;
 }
