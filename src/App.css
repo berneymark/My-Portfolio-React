@@ -24,3 +24,21 @@ nav > * {
   padding-left: 10px;
   text-decoration: none;
 }
+
+#page {
+  display: flex;
+}
+
+.socials {
+  background-color: aquamarine;
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  width: 2vw;
+}
+
+#content {
+  background-color: burlywood;
+  margin-left: 2vw;
+}

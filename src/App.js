@@ -12,21 +12,25 @@ function App() {
         <header>
           <Navbar/>
         </header>
-        <Sidebar/>
-        <Routes>
-          <Route 
-            path="/" 
-            element={ <Home/> }
-          />
-          <Route 
-            path ="about" 
-            element={ <About/> }
-          />
-          <Route 
-            path="contact" 
-            element={ <Contact/> }
-          />
-        </Routes>
+        <div id="page">
+          <Sidebar/>
+          <div id="content">
+            <Routes>
+              <Route 
+                path="/" 
+                element={ <Home/> }
+              />
+              <Route 
+                path ="about" 
+                element={ <About/> }
+              />
+              <Route 
+                path="contact" 
+                element={ <Contact/> }
+              />
+            </Routes>
+          </div>
+        </div>
     </Router>
   );
 }
