@@ -31,14 +31,14 @@ nav > * {
 
 .socials {
   align-items: center;
-  background-color: aquamarine;
+  background-color: darkslategray;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 4vw 4vw 4vw;
+  grid-template-rows: auto 5vw 5vw 5vw;
   height: 100%;
   justify-items: center;
   position: fixed;
-  width: 4vw;
+  width: 6vw;
 }
 
 .socials > a {
