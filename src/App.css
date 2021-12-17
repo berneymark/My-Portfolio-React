@@ -30,12 +30,26 @@ nav > * {
 }
 
 .socials {
+  align-items: center;
   background-color: aquamarine;
-  display:flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 4vw 4vw 4vw;
   height: 100%;
+  justify-items: center;
   position: fixed;
-  width: 2vw;
+  width: 4vw;
+}
+
+.socials > a {
+  align-self: flex-end;
+}
+
+.social-icons {
+  height: auto;
+  max-height: 3vw;
+  max-width: 3vw;
+  width: auto;
 }
 
 #content {
