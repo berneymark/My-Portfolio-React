@@ -38,8 +38,9 @@ function App() {
 const Home = (props) => {
   return(
     <div>
-      <h1>Home Page</h1>
-      <p>Lorem ipsum.</p>
+      <h3>Hi my name is,</h3>
+      <h1>Mark Berney.</h1>
+      <h2>I build things for the web.</h2>
     </div>
   );
 }
