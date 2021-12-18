@@ -1,9 +1,14 @@
+body {
+  overflow-y: hidden;
+}
+
 nav {
   align-items: center;
   background-color: darkslategray;
   color: white;
   display: flex;
   justify-content: space-around;
+  height: 8vh;
 }
 
 nav > * {
@@ -26,7 +31,12 @@ nav > * {
 }
 
 #page {
+  align-content: center;
+  background-color: darkviolet;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 92vh;
 }
 
 .socials {
@@ -53,8 +63,7 @@ nav > * {
 }
 
 #content {
-  align-self: flex-end;
   background-color: burlywood;
-  justify-self: center;
   margin-left: 6vw;
+  padding: 0px 25vw;
 }

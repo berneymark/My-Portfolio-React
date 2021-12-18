@@ -9,9 +9,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <Router>
-        <header>
-          <Navbar/>
-        </header>
+        <Navbar/>
         <div id="page">
           <Sidebar/>
           <div id="content">
@@ -21,7 +19,7 @@ function App() {
                 element={ <Home/> }
               />
               <Route 
-                path ="about" 
+                path="about" 
                 element={ <About/> }
               />
               <Route 
