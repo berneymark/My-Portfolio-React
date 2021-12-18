@@ -53,6 +53,8 @@ nav > * {
 }
 
 #content {
+  align-self: flex-end;
   background-color: burlywood;
-  margin-left: 2vw;
+  justify-self: center;
+  margin-left: 6vw;
 }
