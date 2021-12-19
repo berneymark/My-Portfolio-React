@@ -1,18 +1,28 @@
+:root {
+  --primary-colour: #2f4f4f;
+  --secondary-colour: #2CA58D;
+  --text-colour: #fff;
+}
+
 body {
-  background-color: darkslategray;
-  color: white;
+  background-color: var(--primary-colour);
+  color: var(--text-colour);
+}
+
+h3 {
+  color: var(--secondary-colour);
 }
 
 nav {
   align-items: center;
-  color: white;
+  color: var(--text-colour);
   display: flex;
   justify-content: space-between;
   height: 8vh;
 }
 
 nav > * {
-  color: white;
+  color: var(--text-colour);
   text-decoration: none;
   padding: 0px 2vw;
 }
@@ -26,7 +36,7 @@ nav > * {
 }
 
 .nav-links > * {
-  color: white;
+  color: var(--text-colour);
   padding-left: 10px;
   text-decoration: none;
 }
