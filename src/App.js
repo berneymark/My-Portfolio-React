@@ -38,7 +38,7 @@ const Home = (props) => {
     <div>
       <h3>Hi my name is,</h3>
       <h1>Mark Berney.</h1>
-      <h2>I build things for the web.</h2>
+      <h2>Software Developer.</h2>
     </div>
   );
 }
