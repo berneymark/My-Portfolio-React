@@ -3,6 +3,7 @@ import './App.css';
 
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
@@ -22,6 +23,10 @@ function App() {
             <Route
               path="about"
               element={<About />}
+            />
+            <Route
+              path="projects"
+              element={<Projects />}
             />
             <Route
               path="contact"
