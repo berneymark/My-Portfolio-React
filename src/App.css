@@ -1,6 +1,6 @@
 :root {
   --primary-colour: #2f4f4f;
-  --secondary-colour: #2CA58D;
+  --secondary-colour: #2ca58d;
   --text-colour: #fff;
 }
 
@@ -32,7 +32,7 @@ nav > * {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  width: 50%
+  width: 50%;
 }
 
 .nav-links > * {
@@ -51,17 +51,22 @@ nav > * {
 
 .socials {
   align-items: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 5vw 5vw 5vw;
+  display: flex;
+  flex-direction: column;
   height: 92vh;
-  justify-items: center;
+  justify-content: flex-end;
   position: fixed;
   width: 6vw;
+
+  border: black solid 1px;
 }
 
 .socials > a {
-  align-self: flex-end;
+  margin: 20px;
+}
+
+.socials > a:last-child {
+  margin-bottom: 50px;
 }
 
 .social-icons {
