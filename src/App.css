@@ -57,8 +57,6 @@ nav > * {
   justify-content: flex-end;
   position: fixed;
   width: 6vw;
-
-  border: black solid 1px;
 }
 
 .socials > a {
