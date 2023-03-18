@@ -5,32 +5,35 @@ import TwitterLogo from '../assets/img/twitter-240.png';
 function Sidebar() {
   return (
     <div className="socials">
-      <a 
+      <a
         href="https://www.github.com/berneymark"
         target="_blank"
         rel="noopener noreferrer">
-        <img 
+        <img
           className="social-icons"
-          src={ GithubLogo }
-          alt="github-logo"/>
+          src={GithubLogo}
+          alt="github-logo"
+        />
       </a>
-      <a 
+      <a
         href="https://www.linkedin.com/in/berneymark"
         target="_blank"
         rel="noopener noreferrer">
-        <img 
+        <img
           className="social-icons"
-          src={ LinkedInLogo }
-          alt="linkedin-logo"/>
+          src={LinkedInLogo}
+          alt="linkedin-logo"
+        />
       </a>
-      <a 
+      <a
         href="https://www.twitter.com/berney_mark"
         target="_blank"
         rel="noopener noreferrer">
         <img
           className="social-icons"
-          src={ TwitterLogo }
-          alt="twitter-logo"/>
+          src={TwitterLogo}
+          alt="twitter-logo"
+        />
       </a>
     </div>
   );
